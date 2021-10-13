@@ -1,6 +1,0 @@
-Exibir a versão instalada no computador:
-git --version
-
-git status
-git 
-
