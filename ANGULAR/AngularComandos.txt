@@ -1,0 +1,11 @@
+Baixar Node LTS, para ter suporte longo tempo.
+npm install -g @angular/cli
+ng new my-first-project
+ng serve (dentro da pasta criada)
+
+
+
+Problemas na execução para instalação do Angular no Windows
+
+//Libera para rodar o script.
+Set-ExecutionPolicy -ExecutionPolicy Unrestricted
