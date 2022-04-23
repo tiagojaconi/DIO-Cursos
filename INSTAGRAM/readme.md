@@ -9,6 +9,6 @@ A foto acima é a visualização atual do site, no projeto não foi implementado
 * A responsividade da página foi implementada para alguns tamanhos de tela.
 * Foi inserido uma função extra ao conteúdo apresentado no curso, sendo a inclusão da troca de fotos do celular em primeiro plano com JavaScrip.
 
-Abaixo podemos ver a foto do projeto final:
-
 ![Foto Instagram do projeto](./images/project-login.png)
+
+Na foto acima podemos ver o resultado do projeto final.
