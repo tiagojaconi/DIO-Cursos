@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Instagram</title>
+    <link rel="icon" type="image/x-icon" href="./images/instagram-icon.ico">
+</head>
+
+<body>
+
+    <div class="instagram-wrapper">
+        <div class="instagram-phone">
+            <img src="./images/instagram-profile.png" id="instagram-photo" class="instragram-phone" alt="phone with instagram">
+        </div>
+        <div class="instagram-continue">
+            
+            <img src="./images/instagram-logo.png" class="instagram-logo" alt="Instagram logo">
+            <div class="profile-photo">
+                <img src="./images/personal-profile-instagram.jpg" alt="personal profile">
+            </div>
+            
+            <a href="#" class="instagram-login"><b>Continue as tiago_jaconi</b></a>
+            <p>Not tiago_jaconi? <a href="#" class="instagram-logout">Switch accounts</a></p>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        const images = ['./images/instagram-profile.png', './images/instagram-feed.png', './images/instagram-chat.png', './images/instagram-camera.png'];
+        let instagramPhoto = document.getElementById('instagram-photo');
+        cont = 0;
+        myInterval = setInterval(setInstagramPhoto, 3600);
+
+        function setInstagramPhoto() {
+            switch (cont) {
+                case 0:
+                    instagramPhoto.src= images[1];
+                    break;
+                case 1:
+                    instagramPhoto.src=  images[2];
+                    break;
+                case 2:
+                    instagramPhoto.src= images[3];
+                    break;
+                default:
+                    instagramPhoto.src = images[0];
+                    break;
+            }
+            if(cont < 4){
+                cont++;
+            } else {
+                cont = 0;
+            }
+        }   
+    </script>
+
+</body>
+
+</html>
