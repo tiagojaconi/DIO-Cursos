@@ -2,17 +2,17 @@
     <div class="card-body">
         <h1 class="card-title text-center">Formulário de Usuários</h1>
 
-        <form>
+        <form [formGroup]="userForm">
             <div class="row my-4">
                 <div class="col-6">
                     <div class="form-floating">
-                        <input type="text" class="form-control" id="name" placeholder="Digite seu nome">
+                        <input type="text" class="form-control" formControlName="nome" id="name" placeholder="Digite seu nome">
                         <label for="name">Nome</label>
                     </div>
                 </div>
                 <div class="col-6">
                     <div class="form-floating">
-                        <input type="text" class="form-control" id="sobrenome" placeholder="Digite seu sobrenome">
+                        <input type="text" class="form-control" formControlName="sobrenome" id="sobrenome" placeholder="Digite seu sobrenome">
                         <label for="sobrenome">Sobrenome</label>
                     </div>
                 </div>
@@ -21,20 +21,20 @@
             <div class="row my-4">
                 <div class="col-6">
                     <div class="form-floating">
-                        <input type="text" class="form-control" id="idade" placeholder="Digite sua idade">
+                        <input type="text" class="form-control" formControlName="idade" id="idade" placeholder="Digite sua idade">
                         <label for="idade">Idade</label>
                     </div>
                 </div>
                 <div class="col-6">
                     <div class="form-floating">
-                        <input type="text" class="form-control" id="profissao" placeholder="Digite sua profissão">
+                        <input type="text" class="form-control" formControlName="profissao" id="profissao" placeholder="Digite sua profissão">
                         <label for="profissao">Profissão</label>
                     </div>
                 </div>
             </div>
             
-            <button type="button" class="btn btn-danger mx-2">Cancelar</button>
-            <button type="button" class="btn btn-success">Salvar</button>
+            <button type="button" class="btn btn-danger mx-2" routerLink="/users-list">Cancelar</button>
+            <button type="button" class="btn btn-success" (click)="actionButton()">Salvar</button>
         </form>
     </div>
 </div>        
