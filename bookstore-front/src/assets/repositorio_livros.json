@@ -1,0 +1,29 @@
+{
+    "livros": 
+    [
+        {
+            "id": 1,
+            "name": "Harry Potter",
+            "price": 26.90,
+            "quantity": 5,
+            "category": "Fantasia",
+            "img": "1"
+        },
+        {
+            "id": 2,
+            "name": "O Poder do Hábito",
+            "price": 48.99,
+            "quantity": 2,
+            "category": "Gestão",
+            "img": "2"
+        },
+        {
+            "id": 3,
+            "name": "Armas da Persuasão",
+            "price": 10.99,
+            "quantity": 3,
+            "category": "Liderança",
+            "img": "3"
+        }
+    ]
+}
