@@ -53,7 +53,7 @@ header nav a:hover {
 
 .filme-principal {
     font-size: 16px;
-    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.5) 100%), url("/img/homem-aranha-sem-volta-para-casa.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.5) 100%), url("../img/homem-aranha-sem-volta-para-casa.jpg");
     height: 800px;
     background-size: cover;
     display: flex;
